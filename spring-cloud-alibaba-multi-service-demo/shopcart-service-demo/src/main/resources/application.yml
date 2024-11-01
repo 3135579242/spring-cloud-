@@ -1,0 +1,15 @@
+
+server:
+  port: 8002
+
+spring:
+  application:
+    name: shopcart-service-demo
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:17748
+        username: nacos
+        password: nacos
+
+
